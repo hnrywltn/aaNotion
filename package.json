@@ -1,0 +1,28 @@
+{
+  "name": "aanotion",
+  "version": "1.0.0",
+  "description": "Notion Integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnrywltn/aaNotion.git"
+  },
+  "author": "Henry Walton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnrywltn/aaNotion/issues"
+  },
+  "homepage": "https://github.com/hnrywltn/aaNotion#readme",
+  "dependencies": {
+    "@notionhq/client": "^2.2.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
